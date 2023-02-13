@@ -1,45 +1,70 @@
-# Ts
-User and Book Management System
+# Ts User and Book Management System
+===============================
+
 This application is a user and book management system, built using Typescript and a RESTful CRUD API. The system uses MongoDB as its database.
 
 Features
-Create, read, update and delete users
-Create, read, update and delete books
+--------
+
+-   Create, read, update and delete users
+-   Create, read, update and delete books
+
 Requirements
-Node.js and npm
-MongoDB
+------------
+
+-   Node.js and npm
+-   MongoDB
+
 Getting Started
-Clone the repository to your local machine
-shell
-Copy code
-$ git clone https://github.com/[username]/user-book-management-system.git
-Install the dependencies
-shell
-Copy code
-$ cd user-book-management-system
-$ npm install
-Start the MongoDB server
-ruby
-Copy code
-$ mongod
-Run the application
-ruby
-Copy code
-$ npm start
+---------------
+
+1.  Clone the repository to your local machine
+
+shellCopy code
+
+`$ git clone https://github.com/lalitkishork73/Ts-based-Rest-Api-using-Mongodb.git`
+
+1.  Install the dependencies
+
+shellCopy code
+
+`$ cd Ts-based-Rest-Api-using-Mongodb
+$ npm install`
+
+1.  Start r Run the application
+
+rubyCopy code
+
+`$ nodemon`
+
+1.  Build the application as Javascript file
+
+rubyCopy code
+
+`$ npm run build`
+
 API Endpoints
+-------------
+
 The following are the API endpoints for the User and Book management system:
 
-User Endpoints
-GET /api/users: Retrieve all users
-GET /api/users/:id: Retrieve a single user by ID
-POST /api/users: Create a new user
-PUT /api/users/:id: Update a user by ID
-DELETE /api/users/:id: Delete a user by ID
-Book Endpoints
-GET /api/books: Retrieve all books
-GET /api/books/:id: Retrieve a single book by ID
-POST /api/books: Create a new book
-PUT /api/books/:id: Update a book by ID
-DELETE /api/books/:id: Delete a book by ID
+### Users Endpoints
+
+-   `GET /authors/get`: Retrieve all users
+-   `GET /authors/get/:authorId`: Retrieve a single user by ID
+-   `POST /authors/create`: Create a new user
+-   `PUT /authors/update/:authorId`: Update a user by ID
+-   `DELETE /authors/delete/:authorId`: Delete a user by ID
+
+### Books Endpoints
+
+-   `GET /books/get`: Retrieve all books
+-   `GET /books/get/:bookId`: Retrieve a single book by ID
+-   `POST /books/create`: Create a new book
+-   `PUT /books/update/:bookId`: Update a book by ID
+-   `DELETE /books/delete/:bookId`: Delete a book by ID
+
 Conclusion
+----------
+
 This user and book management system provides a basic CRUD API for managing users and books. The application is built using Typescript and MongoDB, and can be easily extended to meet additional requirements.
